@@ -50,13 +50,7 @@ class MysqlStorage implements StorageInterface {
     }
 }
 
-class RedisStorage implements StorageInterface {
 
-    public function query(): array
-    {
-        return [];
-    }
-}
 
 
 class ORM {
