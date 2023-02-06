@@ -18,7 +18,6 @@ function render (string $path , ?string $prevFolder) {
     }
     foreach ($dir as $item){
 
-
         if($item->isDot()) {
             continue;
         }
@@ -36,6 +35,8 @@ render($foldersPath,$prevFolder);
 
 
 ?>
+
+
 
 
 
